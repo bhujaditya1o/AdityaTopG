@@ -1,0 +1,13 @@
+@media (max-width: 800px){
+    .hide{
+     display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media (max-width: 400px){
+    .sidebar{
+     width: 100%;
+    }
+}

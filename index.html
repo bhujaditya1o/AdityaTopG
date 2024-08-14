@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="media.css">
+
+ </head>
+ <body class="body">
+      <nav>
+
+        <ul class="sidebar">
+          <li onclick=hidesidebar()><a><i class='bx bx-x'></i><a</li>
+        <li><a href="#">home</a></li>
+       <li><a href="#">about</a></li>
+        <li><a href="#">skills</a></li>
+        <li><a href="#">contact</a></li>
+        </ul>
+
+        <ul class="nav-item">
+          <li class="logo"><a href="#"><span>A</span>ditya.</a></li>
+       <li class="hide"><a href="#">home</a></li>
+       <li class="hide"><a href="#">about</a></li>
+        <li class="hide"><a href="#">skills</a></li>
+        <li class="hide"><a href="#">contact</a></li>
+        <li onclick=showsidebar() class="menu"><a><i class='bx bx-menu' ></i></a></li>
+        </ul>
+        </nav>
+   <script>
+    function showsidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hidesidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+   </script>
+
+<section class="home">
+  <div>
+    <div class="home-content">
+    <h1>Hi, it's Me <span>A</span>ditya.</h1>
+    <h3>And I'm a <span>Graphic Designer</span></h3>
+    <p>"I have been working on graphic designing
+       field since 2023"</p>
+       </div>
+      </div>
+      <div class="imagee">
+        <img src="images/aditya.png" alt="">
+        </div>
+      </section>
+
+    <div class="about">
+      <div class="image-2">
+        <img class="hhh" src="images/aditya.png" alt="">
+      </div>
+      <div class="aboutt">
+        <p class="p">Let me introduce myself !</p>
+        <h1>About Me</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis voluptatem vel sapiente velit, tenetur sint nemo sit, odit sequi hic unde, voluptas cumque veritatis eveniet asperiores repudiandae fugiat eligendi.</p>
+      </div>
+    </div>
+ </body>
+ </html>
